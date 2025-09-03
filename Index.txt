@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoTracker Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>EcoTracker</h1>
+        <nav>
+            <ul>
+                <li><a href="                                    
+                <li><a href="#carbon-footprint">Carbon Footprint</a></li>
+                <li><a href="                                          
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="activity-log">
+            <h2>Activity Log</h2>
+            <form>
+                <label for="activity-type">Activity Type:</label>
+                <select id="activity-type" name="activity-type">
+                    <option value="transportation">Transportation</option>
+                    <option value="energy-consumption">Energy Consumption</option>
+                    <option value="waste-generation">Waste Generation</option>
+                </select>
+                <label for="carbon-footprint">Carbon Footprint:</label>
+                <input type="number" id="carbon-footprint" name="carbon-footprint">
+                <button type="submit">Log Activity</button>
+            </form>
+            <ul id="activity-list">
+                <!-- Display logged activities here -->
+            </ul>
+        </section>
+        <section id="carbon-foot
